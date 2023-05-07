@@ -54,7 +54,7 @@ class PeopleTable extends React.Component {
                         <th>Age</th>
                     </thead>
                     <tbody>
-                        {this.state.people.map(p => <PersonRow currentPerson={firstName = p.firstName, lastName = p.lastName, age = p.age} />) }
+                        {this.state.people.map(p => <PersonRow currentPerson={p} />) }
                     </tbody>
                 </table>
             </div>
