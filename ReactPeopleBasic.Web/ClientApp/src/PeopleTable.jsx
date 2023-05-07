@@ -37,7 +37,7 @@ class PeopleTable extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="container">
                 <div className='container mt-5'>
                     <PersonForm currentPerson={this.state.currentPerson}
                         onClearClick={this.onClearClick}
@@ -47,7 +47,7 @@ class PeopleTable extends React.Component {
                         onAddClick={this.onAddClick}
                     />
                 </div>
-                <table className="table table-hover table-striped table-bordered mt-5">
+                <table className="table table-hover table-bordered mt-5">
                     <thead>
                         <th>First Name</th>
                         <th>Last Name</th>
